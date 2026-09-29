@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.API", "TaskManagement.API\TaskManagement.API.csproj", "{0CEBFC8F-9FC0-4E12-8843-68AE8A426758}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrack.API", "TaskTrack.API\TaskTrack.API.csproj", "{0CEBFC8F-9FC0-4E12-8843-68AE8A426758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Service", "TaskManagement.Service\TaskManagement.Service.csproj", "{862B0F6B-66A6-4200-916A-237D27ABE209}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrack.Service", "TaskTrack.Service\TaskTrack.Service.csproj", "{862B0F6B-66A6-4200-916A-237D27ABE209}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Repo", "TaskManagement.Repo\TaskManagement.Repo.csproj", "{732BDC28-E932-4A12-81E9-C06800733279}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrack.Repo", "TaskTrack.Repo\TaskTrack.Repo.csproj", "{732BDC28-E932-4A12-81E9-C06800733279}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
