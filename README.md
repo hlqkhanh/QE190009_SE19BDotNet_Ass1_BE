@@ -28,6 +28,25 @@ dotnet run --project TaskTrack.API --urls http://localhost:5000
 
 Open Swagger at http://localhost:5000/swagger.
 
+## Docker
+
+Build the production image from the repository root:
+
+```powershell
+docker build -t tasktrack-api .
+```
+
+The container listens on port `10000`, matching Render's default web-service port. Run it locally with:
+
+```powershell
+docker run --rm -p 10000:10000 `
+  -e "DATABASE_URL=Host=host.docker.internal;Port=5433;Database=task_management;Username=taskadmin;Password=taskpassword" `
+  -e "ASPNETCORE_ENVIRONMENT=Production" `
+  tasktrack-api
+```
+
+Open Swagger at http://localhost:10000/swagger.
+
 ## Environment Variables
 
 - `DATABASE_URL`: PostgreSQL connection string or Render PostgreSQL URL.
